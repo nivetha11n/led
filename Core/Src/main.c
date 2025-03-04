@@ -101,7 +101,7 @@ int main(void)
     /* USER CODE END WHILE */
    HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12); // Blink LED for debugging
     HAL_UART_Transmit(&huart2, data, sizeof(data) - 1, 100); // Send "Hello, World!"
-    HAL_Delay(1000); // Delay 1 second before sending again
+    HAL_Delay(5000); // Delay 1 second before sending again
   
     /* USER CODE BEGIN 3 */
   }
